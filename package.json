@@ -16,7 +16,6 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^3.11.174"
   }
 }

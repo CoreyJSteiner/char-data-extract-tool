@@ -1,10 +1,9 @@
 import './style.css'
-import * as pdfjsLib from 'pdfjs-dist'
-import type { PDFDocumentProxy } from 'pdfjs-dist/types/src/display/api'
+import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf'
+import type { PDFDocumentProxy } from 'pdfjs-dist'
 
-// Set worker path to local copy
 pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
+  'pdfjs-dist/legacy/build/pdf.worker.js',
   import.meta.url
 ).toString()
 
