@@ -16,6 +16,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "make-dir": "^5.0.0",
     "pdfjs-dist": "^3.11.174"
   }
 }
